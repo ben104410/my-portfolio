@@ -2,17 +2,16 @@ import { ExternalLink, Github, Code2 } from 'lucide-react';
 
 const Projects = () => {
   const projectList = [
-    { title: "Portfolio Website", desc: "A high-performance personal portfolio showcasing modern web capabilities.", tech: ["React", "Tailwind", "Vite"], img: "whatsapp image.png" },
+    { title: "Portfolio Website", desc: "A high-performance personal portfolio showcasing modern web capabilities.", tech: ["React", "Tailwind", "Vite"], img: "/Screenshot (31).png" },
     { title: "Football Club Hub", desc: "A community platform for local sports management and fixture tracking.", tech: ["JavaScript", "HTML5", "CSS3"], img: "WhatsApp Image 2025-05-14 at 13.54.30_80a9a748.jpg" },
-    { title: "Market-Magnet", desc: "A robust e-commerce solution focused on conversion and user experience.", tech: ["React", "Commerce.js"], img: "" },
-    { title: "Innovation Week Portal", desc: "Event management website for Pwani Innovation Week.", tech: ["Vite", "React"], img: "Screenshot (777).png" },
-    { title: " Smart University Asset Tracker", desc: "Full-stack system for maintenance and tracking of institutional assets.", tech: ["Django", "React", "REST API"], img: "Screenshot (29).png" },
-    { title: "Smart learning system", desc: "a full stack website for e-learning.", tech: ["React", "Django"], img: "" },
-    { title: "Smart Health Dashboard", desc: "Monitoring system for health metrics with real-time data visualization.", tech: ["TypeScript", "D3.js"], img: "" },
-    { title: "To-do list app", desc: "a web app for things you wish to do.", tech: ["React", "css"], img: "" },
-    { title: "Weather App", desc: "a web app for checking weather.", tech: ["Css", "React"], img: "" },
-    { title: "Eventsspace system", desc: "a management system for spaces for booking in an organaization.", tech: ["Django framworks", "React", "Tailwind css"], img: "" },
-    { title: "hospital management system", desc: "a management system for hospitals.", tech: ["Django", "HTml" ,"Tailwind"], img: "" },
+    { title: "Market-Magnet", desc: "A robust e-commerce solution focused on conversion and user experience.", tech: ["React", "Commerce.js"], img: "/Screenshot (782).png" },
+    { title: "Innovation Week Portal", desc: "Event management website for Pwani Innovation Week.", tech: ["Vite", "React"], img: "/Screenshot (777).png" },
+    { title: " Smart University Asset Tracker", desc: "Full-stack system for maintenance and tracking of institutional assets.", tech: ["Django", "React", "REST API"], img: "/Screenshot 15.png" },
+    { title: "Smart learning system", desc: "a full stack website for e-learning.", tech: ["React", "Django"], img: "/Screenshot (778).png" },
+    { title: "Smart Health Dashboard", desc: "Monitoring system for health metrics with real-time data visualization.", tech: ["TypeScript", "D3.js"], img: "/Screenshot (779).png" },
+    { title: "To-do list app", desc: "a web app for things you wish to do.", tech: ["React", "css"], img: "/Screenshot (30).png" },
+    { title: "Book tracker system", desc: "website for tracking books.", tech: ["Django framworks", "React", "Tailwind css"], img: "/Screenshot (34).png" },
+    { title: "hospital management system", desc: "a management system for hospitals.", tech: ["Django", "HTml" ,"Tailwind"], img: "/Screenshot (779).png" },
   ];
 
   return (
